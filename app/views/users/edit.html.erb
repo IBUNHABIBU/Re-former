@@ -1,22 +1,2 @@
-<input name="utf8" type="hidden" value="&#x2713;" />
-<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-
-<% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
-
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@user) do |f| %>
-      <%= f.label :name %>
-      <%= f.text_field :name %>
-
-      <%= f.label :email %>
-      <%= f.email_field :email %>
-
-      <%= f.label :password %>
-      <%= f.password_field :password %>
-
-      <%= f.submit "Update my account", class: "btn btn-primary" %>
-    <% end %>
-  </div>
-</div>
+<h1> Edit your account </h1>
+<%= render 'form' %>
