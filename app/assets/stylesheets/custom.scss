@@ -1,4 +1,8 @@
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
+h1{
+  margin-left: 50rem;
+}
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
