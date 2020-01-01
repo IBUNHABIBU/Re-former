@@ -1,5 +1,5 @@
 README
-This is the Ruby on Rails projet for creating Forms . 
+This is the Ruby on Rails projet for creating Forms the old fashioned way 
 
 Getting started
 To get started with the app, clone the repo and then install the needed gems:
@@ -13,4 +13,5 @@ $ rails test If the test suite passes, you'll be ready to run the app in a local
 $ rails server
 
 Authors
-Salum Habibu https://github.com/IBUNHABIBU Maya Elfeky https://github.com/maya88en/
+Salum Habibu https://github.com/IBUNHABIBU 
+Maya Elfeky https://github.com/maya88en/
