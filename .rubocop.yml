@@ -7,8 +7,7 @@ AllCops:
     - "Rakefile"
     - "node_modules/**/*"
   DisplayCopNames: true
-Metrics/LineLength:
-  Enabled: false
+
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
