@@ -1,4 +1,6 @@
+
 <% provide(:title, 'Sign up') %>
+<!--
 <form accept-charset="UTF-8" action="/users" class="new_user"
       id="new_user" method="post">
   <input name="utf8" type="hidden" value="&#x2713;" />
@@ -21,3 +23,28 @@
   <input class="btn btn-primary" name="commit" type="submit"
          value="Create my account" />
 </form>
+-->
+
+ <!--        **************  Form helper ********************** -->
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation, class: 'form-control' %>
+
+      <%= f.submit(@user.new_record? ? "Create account":"Update account", class: "btn btn-primary")%>
+    <% end %>
+  </div>
+</div>
