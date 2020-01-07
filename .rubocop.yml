@@ -8,7 +8,7 @@ AllCops:
     - "node_modules/**/*"
   DisplayCopNames: true
 Metrics/LineLength:
-  Max: 82
+  Max: 50
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
