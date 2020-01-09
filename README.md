@@ -1,24 +1,27 @@
-# README
+# Re-former
+This is the Ruby on Rails projet for creating signup form using normal html and using rails helper.
+In this project the user will be able to create the account and edit the account details , when successfully it will show his user name and email.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built with 
+* Ruby on rails
+* Bootstrap
 
-Things you may want to cover:
+## Live demo
 
-* Ruby version
+## Getting started
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+$ bundle install --without production Next, migrate the database:
 
-* Configuration
+$ rails db:migrate Finally, run the test suite to verify that everything is working correctly:
 
-* Database creation
+$ rails test If the test suite passes, you'll be ready to run the app in a local server:
 
-* Database initialization
+$ rails server
 
-* How to run the test suite
+## Authors
+#### Author 1
+* Github: Salum Habibu https://github.com/IBUNHABIBU 
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Author 2 
+* Github: Maya Elfeky https://github.com/maya88en/
